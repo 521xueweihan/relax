@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <title>Relax</title>
 </head>
+
 <body>
-<h1>hello world!</h1>
-<img src="./static/test.png">
+    <div>
+        <audio id="demo1" autoplay loop preload="auto" src="./static/resource/scene-beach.m4a"></audio>
+        <video width="100%" id="demo2" autoplay loop preload="auto" src="./static/resource/scene-beach.mp4"></video>
+        <div>
+            <button onclick="document.getElementById('demo1').play();document.getElementById('demo2').play()">播放1</button>
+        </div>
+    </div>
 </body>
 </html>
